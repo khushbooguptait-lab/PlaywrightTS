@@ -1,0 +1,23 @@
+{
+  "name": "playwrightts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:report": "playwright show-report",
+    "test:qa": "cross-env TEST_ENV=qa playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^26.6.5",
+    "cross-env": "^10.1.0",
+    "typescript": "^7.0.2"
+  }
+}

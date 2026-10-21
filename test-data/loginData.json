@@ -1,0 +1,10 @@
+{
+    "validUser": {
+      "email": "",
+      "password": ""
+    },
+    "invalidUser": {
+      "email": "invalid@example.com",
+      "password": "wrongpassword"
+    }
+  }
